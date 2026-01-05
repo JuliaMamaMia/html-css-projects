@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HTML/CSS Projects — JuliaMamaMia</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial; margin:0; padding:24px; background:#0b0f14; color:#e6edf3}
+    a{color:#6aa9ff; text-decoration:none} a:hover{text-decoration:underline}
+    .grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:14px}
+    .card{border:1px solid rgba(255,255,255,.1); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.04)}
+    .card img{width:100%; height:200px; object-fit:cover; display:block}
+    .card div{padding:12px}
+    @media (max-width: 900px){.grid{grid-template-columns:1fr} .card img{height:240px}}
+  </style>
+</head>
+<body>
+  <h1>HTML/CSS Projects</h1>
+  <p>Выбери проект:</p>
+  <div class="grid">
+    <div class="card">
+      <img src="figures/ono-tebe-nado.png" alt="Оно тебе надо">
+      <div><a href="ono-tebe-nado/index.html">Оно тебе надо →</a></div>
+    </div>
+    <div class="card">
+      <img src="figures/nado-sdelat-idealno_1.png" alt="Надо сделать идеально">
+      <div><a href="nado-sdelat-idealno/index.html">Надо сделать идеально →</a></div>
+    </div>
+    <div class="card">
+      <img src="figures/posmotri-v-okno_1.png" alt="Посмотри в окно">
+      <div><a href="posmotri-v-okno/index.html">Посмотри в окно →</a></div>
+    </div>
+  </div>
+</body>
+</html>
