@@ -1,0 +1,6 @@
+/* preloader.css (placeholder)
+   Если у тебя есть оригинальный файл — просто замени этот. */
+.preloader{display:flex; align-items:center; justify-content:center; padding:24px}
+.preloader-chasing-squares{display:grid; grid-template-columns:repeat(2,16px); gap:8px}
+.preloader-chasing-squares .square{width:16px; height:16px; background:#fff; opacity:.7; animation:pulse 1s infinite alternate}
+@keyframes pulse{from{transform:scale(.8)} to{transform:scale(1.1)}}

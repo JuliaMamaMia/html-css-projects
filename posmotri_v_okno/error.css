@@ -1,0 +1,4 @@
+/* error.css (placeholder)
+   Если у тебя есть оригинальный файл — просто замени этот. */
+.error{padding:18px; border:1px solid rgba(255,255,255,.15); border-radius:12px}
+.error__title{margin:0; font-size:18px}
