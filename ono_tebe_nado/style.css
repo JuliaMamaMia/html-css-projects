@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0
+}
+.content-section {
+    width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.content-section_theme_dark {
+    background-color: #151515;
+    color: #dcdada;
+    padding: 24px 20px;
+}
+.content-section_theme_bright {
+    background-color: rgb(244, 221, 20);
+    color: #151515;
+    padding: 24px 20px;
+}
+.header {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo-image {
+    width: 100px;
+}
+.header__menu-list {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    list-style: none;
+}
+.header__menu-link {
+    color: #dcdada;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 0;
+}
+.cover {
+    background-image: url("/Images/cover.svg");
+    background-repeat: no-repeat;
+    background-position: 20px 24px;
+    background-size: 95% auto;
+    min-height: 250px;
+}
+.cover__title {
+    font-family: "EB Garamond", serif;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.accent-span {
+    display: flex;
+}
+.text-center {
+    justify-content: center;
+    margin: 50px;
+}
+.text-right {
+    justify-content: right;
+}
+.intro {
+    display:flex;
+    font-family: "Inter", sans-serif;
+    padding: 0px 20px 24px;
+    row-gap: 20px;
+    flex-direction: column;
+    font-weight: 200;
+}
+.intro__heading{
+    display: flex;
+    column-gap: 20px
+}
+.intro__title {
+    font-size: 0.9em;
+    font-weight: 200;
+    color: #aaaaaa;
+}
+.intro__date {
+    white-space: nowrap;
+    color: #aaaaaa;
+}
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.reasons {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+}
+.content-section__subtitle {
+    font-family: "EB Garamond", serif;
+    line-height: 30px;
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 19px;
+}
+.content-section__introduction {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.38px;
+    line-height: 1.37;
+    padding: 1px;
+}
+.content-section__list {
+    display:flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-weight: 300;
+    margin-left: 26px;
+    margin-bottom: 25px;
+}
+.content-section__list-item{
+    font-weight: bold;
+}
+.how-to {
+    font-family: "Inter", sans-serif;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+    border-style: none none solid none;
+    border-bottom-color: #fee42a;
+    border-bottom-width: 2px;
+}
+.content-section__introduction_1 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.38px;
+    line-height: 1.37;
+    padding: 1px;
+}
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none; 
+    row-gap: 30px; 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    border-radius: 30px;
+}
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+}
+.card__author-name{
+    font-family: "Inter" sans-serif;
+    font-weight: bold; 
+    margin-top: 7px;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.card__title {
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+.card_theme_dark {
+    background-color: #2e2e2e;
+    color:#dcdada;
+}
+.card_theme_bright {
+    background-color: #fee42a;
+    color: #151515;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 20px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.footer_links {
+    word-spacing: 1em;
+    font-size: 14px;
+    color: #aaaaaa;
+}
